@@ -704,6 +704,14 @@ footer .copyright {
     display: flex;
   }
 
+  .hero {
+    align-items: flex-end;
+  }
+
+  .hero-content {
+    padding-bottom: 3rem;
+  }
+
   .hero h1 {
     font-size: 2.5rem;
   }
