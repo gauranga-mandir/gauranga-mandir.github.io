@@ -4,7 +4,7 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 ## Project Overview
 
-This is a static website for Barakar Siddheswari Mandir, a Hindu temple in West Bengal, India. The site is built with vanilla HTML, CSS, and JavaScript—no build tools or frameworks.
+This is a static website for Barakar Gauranga Mandir, a Hindu temple in West Bengal, India. The site is built with vanilla HTML, CSS, and JavaScript—no build tools or frameworks.
 
 ## Development
 

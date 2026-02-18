@@ -3,13 +3,13 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Gallery - Barakar Siddheswari Mandir</title>
+  <title>Gallery - Barakar Gauranga Mandir</title>
   <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
   <nav>
     <div class="container">
-      <a href="index.html" class="logo">Siddheswari <span>Mandir</span></a>
+      <a href="index.html" class="logo">Gauranga <span>Mandir</span></a>
       <div class="menu-toggle" onclick="toggleMenu()">
         <span></span>
         <span></span>
@@ -36,52 +36,36 @@
 
   <header class="page-header">
     <h1>Photo Gallery</h1>
-    <p>Glimpses of divine moments at Barakar Siddheswari Mandir</p>
+    <p>Glimpses of divine moments at Barakar Gauranga Mandir</p>
   </header>
 
   <section>
     <div class="container">
       <div class="section-title">
-        <h2>Temple Views</h2>
+        <h2>Puja &amp; Rituals</h2>
         <div class="divider"></div>
-        <p>A visual journey through our sacred temple</p>
+        <p>Sacred rituals and offerings at the temple</p>
       </div>
       <div class="gallery-grid">
-        <div class="gallery-item">
-          <div class="gallery-placeholder">
-            <div class="icon">🙏</div>
-            <span>Temple Entrance</span>
-          </div>
+        <div class="gallery-item" onclick="openLightbox(this)">
+          <img src="images/PHOTO-2025-11-01-19-38-10.jpg" alt="Puja offerings with sacred fire and deity" loading="lazy">
+          <div class="gallery-caption">Sacred Fire &amp; Offerings</div>
         </div>
-        <div class="gallery-item">
-          <div class="gallery-placeholder">
-            <div class="icon">🪔</div>
-            <span>Main Sanctum</span>
-          </div>
+        <div class="gallery-item" onclick="openLightbox(this)">
+          <img src="images/PHOTO-2025-11-01-19-38-10%203.jpg" alt="Lit diyas and incense sticks" loading="lazy">
+          <div class="gallery-caption">Diyas &amp; Incense</div>
         </div>
-        <div class="gallery-item">
-          <div class="gallery-placeholder">
-            <div class="icon">⭐</div>
-            <span>Deity Idol</span>
-          </div>
+        <div class="gallery-item" onclick="openLightbox(this)">
+          <img src="images/PHOTO-2025-11-01-19-38-10%202.jpg" alt="Priests performing puja rituals" loading="lazy">
+          <div class="gallery-caption">Puja Rituals</div>
         </div>
-        <div class="gallery-item">
-          <div class="gallery-placeholder">
-            <div class="icon">🎊</div>
-            <span>Festival Decorations</span>
-          </div>
+        <div class="gallery-item" onclick="openLightbox(this)">
+          <img src="images/PHOTO-2025-11-01-19-38-10%204.jpg" alt="Priest during ceremony" loading="lazy">
+          <div class="gallery-caption">Temple Priest</div>
         </div>
-        <div class="gallery-item">
-          <div class="gallery-placeholder">
-            <div class="icon">🌸</div>
-            <span>Flower Offerings</span>
-          </div>
-        </div>
-        <div class="gallery-item">
-          <div class="gallery-placeholder">
-            <div class="icon">🌅</div>
-            <span>Morning Aarti</span>
-          </div>
+        <div class="gallery-item" onclick="openLightbox(this)">
+          <img src="images/PHOTO-2025-11-01-19-42-31%205.jpg" alt="Puja setup with havan kund and offerings at the temple" loading="lazy">
+          <div class="gallery-caption">Havan &amp; Offerings</div>
         </div>
       </div>
     </div>
@@ -90,38 +74,43 @@
   <section style="background: var(--white);">
     <div class="container">
       <div class="section-title">
-        <h2>Festival Celebrations</h2>
+        <h2>Community Gatherings</h2>
         <div class="divider"></div>
-        <p>Capturing the spirit of our grand festivals</p>
+        <p>Devotees coming together in worship and celebration</p>
       </div>
       <div class="gallery-grid">
-        <div class="gallery-item">
-          <div class="gallery-placeholder">
-            <div class="icon">🎉</div>
-            <span>Durga Puja</span>
-          </div>
+        <div class="gallery-item" onclick="openLightbox(this)">
+          <img src="images/PHOTO-2025-11-01-19-39-22.jpg" alt="Daytime community puja with devotees" loading="lazy">
+          <div class="gallery-caption">Community Puja</div>
         </div>
-        <div class="gallery-item">
-          <div class="gallery-placeholder">
-            <div class="icon">🌙</div>
-            <span>Kali Puja Night</span>
-          </div>
+        <div class="gallery-item" onclick="openLightbox(this)">
+          <img src="images/PHOTO-2025-11-01-19-42-31%203.jpg" alt="Wide view of devotees gathered for puja" loading="lazy">
+          <div class="gallery-caption">Devotee Gathering</div>
         </div>
-        <div class="gallery-item">
-          <div class="gallery-placeholder">
-            <div class="icon">🎭</div>
-            <span>Cultural Programs</span>
-          </div>
+        <div class="gallery-item" onclick="openLightbox(this)">
+          <img src="images/PHOTO-2025-11-01-19-42-31.jpg" alt="Evening puja gathering with offerings" loading="lazy">
+          <div class="gallery-caption">Evening Puja</div>
         </div>
-        <div class="gallery-item">
-          <div class="gallery-placeholder">
-            <div class="icon">👥</div>
-            <span>Devotee Gathering</span>
-          </div>
+        <div class="gallery-item" onclick="openLightbox(this)">
+          <img src="images/PHOTO-2025-11-01-19-42-31%202.jpg" alt="Priest and devotees during daytime puja" loading="lazy">
+          <div class="gallery-caption">Blessings &amp; Prayers</div>
+        </div>
+        <div class="gallery-item" onclick="openLightbox(this)">
+          <img src="images/PHOTO-2025-11-01-19-42-31%208.jpg" alt="Priest blessing devotees during ceremony" loading="lazy">
+          <div class="gallery-caption">Sacred Ceremony</div>
         </div>
       </div>
     </div>
   </section>
+
+  <!-- Lightbox -->
+  <div id="lightbox" class="lightbox" onclick="closeLightbox(event)">
+    <button class="lightbox-close" onclick="closeLightbox(event)">&times;</button>
+    <button class="lightbox-prev" onclick="navigateLightbox(event, -1)">&#10094;</button>
+    <img id="lightbox-img" src="" alt="">
+    <div id="lightbox-caption" class="lightbox-caption"></div>
+    <button class="lightbox-next" onclick="navigateLightbox(event, 1)">&#10095;</button>
+  </div>
 
   <section>
     <div class="container">
@@ -134,9 +123,9 @@
 
   <footer>
     <div class="container">
-      <h3>Barakar Siddheswari Mandir</h3>
+      <h3>Barakar Gauranga Mandir</h3>
       <p>Barakar, Asansol, West Bengal, India</p>
-      <p class="copyright">&copy; 2024 Barakar Siddheswari Mandir. All rights reserved.</p>
+      <p class="copyright">&copy; 2024 Barakar Gauranga Mandir. All rights reserved.</p>
     </div>
   </footer>
 
