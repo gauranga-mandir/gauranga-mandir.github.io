@@ -186,7 +186,7 @@ nav ul li a.active::after {
   align-items: center;
   justify-content: center;
   text-align: center;
-  background: url('../images/484916036_3568406926795746_5238615815915686013_n.jpg') center center / cover no-repeat;
+  background: url('../images/home-bg-1.jpg') center top / cover no-repeat;
   padding: 2rem;
   position: relative;
   overflow: hidden;
