@@ -559,6 +559,10 @@ a.highlight-link:hover {
   transition: transform 0.3s ease;
 }
 
+.gallery-item.focus-top img {
+  object-position: center 10%;
+}
+
 .gallery-item:hover img {
   transform: scale(1.1);
 }
